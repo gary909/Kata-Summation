@@ -1,12 +1,10 @@
 var summation = function (num) {
-    for (var i = 1; i < num; i++) {
-        //console.log(num + i);
-        var total = i + num;
-        i++;
-        //console.log("hello");
-      }
+    let total = 0
+    for(let i = 0; i <= num; i++) {
+        total = total + i;
+    }
     return total;
-  }
+}
 
 
 console.log(summation(2)) // = 3 (1 + 2)
